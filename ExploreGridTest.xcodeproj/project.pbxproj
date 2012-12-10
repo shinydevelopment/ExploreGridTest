@@ -17,7 +17,7 @@
 		5552575816761AF600459A5C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5552575716761AF600459A5C /* Default@2x.png */; };
 		5552575A16761AF600459A5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5552575916761AF600459A5C /* Default-568h@2x.png */; };
 		5552575D16761AF600459A5C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552575C16761AF600459A5C /* RootViewController.m */; };
-		5552576016761AF600459A5C /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552575F16761AF600459A5C /* DataViewController.m */; };
+		5552576016761AF600459A5C /* PhotoGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552575F16761AF600459A5C /* PhotoGridViewController.m */; };
 		5552576316761AF600459A5C /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552576216761AF600459A5C /* ModelController.m */; };
 		5552576616761AF600459A5C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5552576416761AF600459A5C /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,8 +38,8 @@
 		5552575916761AF600459A5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5552575B16761AF600459A5C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		5552575C16761AF600459A5C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		5552575E16761AF600459A5C /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		5552575F16761AF600459A5C /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		5552575E16761AF600459A5C /* PhotoGridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoGridViewController.h; sourceTree = "<group>"; };
+		5552575F16761AF600459A5C /* PhotoGridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoGridViewController.m; sourceTree = "<group>"; };
 		5552576116761AF600459A5C /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
 		5552576216761AF600459A5C /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		5552576516761AF600459A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 				5552575316761AF600459A5C /* AppDelegate.m */,
 				5552575B16761AF600459A5C /* RootViewController.h */,
 				5552575C16761AF600459A5C /* RootViewController.m */,
-				5552575E16761AF600459A5C /* DataViewController.h */,
-				5552575F16761AF600459A5C /* DataViewController.m */,
+				5552575E16761AF600459A5C /* PhotoGridViewController.h */,
+				5552575F16761AF600459A5C /* PhotoGridViewController.m */,
 				5552576116761AF600459A5C /* ModelController.h */,
 				5552576216761AF600459A5C /* ModelController.m */,
 				5552576416761AF600459A5C /* MainStoryboard.storyboard */,
@@ -186,7 +186,7 @@
 				5552575016761AF600459A5C /* main.m in Sources */,
 				5552575416761AF600459A5C /* AppDelegate.m in Sources */,
 				5552575D16761AF600459A5C /* RootViewController.m in Sources */,
-				5552576016761AF600459A5C /* DataViewController.m in Sources */,
+				5552576016761AF600459A5C /* PhotoGridViewController.m in Sources */,
 				5552576316761AF600459A5C /* ModelController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +306,7 @@
 				5552576B16761AF600459A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

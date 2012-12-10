@@ -1,8 +1,8 @@
-@class DataViewController;
+@class PhotoGridViewController;
 
 @interface ModelController : NSObject <UIPageViewControllerDataSource>
 
-- (DataViewController *)viewControllerAtIndex:(NSUInteger)index storyboard:(UIStoryboard *)storyboard;
-- (NSUInteger)indexOfViewController:(DataViewController *)viewController;
+- (PhotoGridViewController *)viewControllerAtIndex:(NSUInteger)index storyboard:(UIStoryboard *)storyboard;
+- (NSUInteger)indexOfViewController:(PhotoGridViewController *)viewController;
 
 @end
